@@ -1,0 +1,22 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" 
+xmlns:core = "sap.ui.core" 
+xmlns="sap.m" controllerName="navwithparams.controller.detailPage" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+        <content> 
+        <core:Fragment fragmentName = "navwithparams.view.reusableForm"  id="99"/>
+        <!-- <VBox alignContent="Center" alignItems="Center" >
+    <sap.ui.layout.form:SimpleForm  editable="true" layout="ResponsiveGridLayout" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" id="form0">
+            <sap.ui.layout.form:content>
+                <sap.ui.core:Title  text="Customer Information"  id="title0"/>
+                <Label text="CustomerID" id="label0" required="true"/>
+                <Input  id="input0" value="{CustomerID}"/>
+                <Label text="CompanyName" id="label1"/>
+                <Input  id="input09" value = "{CompanyName}"/>
+                <Label text="ContactName" id="label19"/>
+                <Input id="input2" value = "{ContactName}"/></sap.ui.layout.form:content>
+                <Button text="{i18n>Load More}" press=".onOpenDialog"/>
+        </sap.ui.layout.form:SimpleForm>
+        </VBox> -->
+        </content>
+    </Page>
+</mvc:View>
